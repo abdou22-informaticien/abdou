@@ -1,0 +1,139 @@
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Nouvelle couleur de fond */
+    color: #374151;
+    display: flex;
+    justify-content: flex-start; /* Aligner le contenu à gauche */
+    align-items: flex-start; /* Aligner le contenu en haut */
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style général du formulaire */
+form {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0; /* Supprimer la marge auto pour aligner à gauche */
+    padding: 30px;
+    background-color: #f9f9f9; /* Nouvelle couleur de fond */
+    border: 1px solid #002a6a;
+    border-radius: 10px;
+    color: #374151;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du titre */
+h1 {
+    font-size: 24px;
+    color: #3b82f6;
+    text-align: left; /* Alignement du titre à gauche */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Style des étiquettes */
+label {
+    font-size: 14px;
+    color: #1f2937;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Champs de texte et sélection */
+input[type="text"], select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #e0f0f6; /* Nouvelle couleur de fond */
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #3b82f6;
+    outline: none;
+}
+
+/* Bouton de soumission */
+input[type="submit"] {
+    background-color: #572fa3; /* Nouvelle couleur de fond */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2563eb;
+}
+
+/* Style pour les messages d'erreur et de succès */
+.error-message {
+    color: #d32f2f; /* Nouvelle couleur pour les messages d'erreur */
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.success-message {
+    color: #16a34a;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Style pour les liens */
+a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2563eb;
+}
+
+/* Style pour les boutons du menu (alignés verticalement) */
+.menu-button {
+    background-color: #7331aa;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 12px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.menu-button:hover {
+    background-color: #2563eb;
+}
+
+/* Conteneur des boutons de menu pour l'affichage vertical */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Style pour les options de sélection */
+select {
+    background-color: #ffffff;
+    color: #374151;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 12px;
+    width: 100%;
+    font-size: 14px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire des loisir</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          margin: 0;
+          padding: 20px;
+        }
+        h1 {
+          color: #333;
+        }
+        form {
+          background: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        label {
+          display: block;
+          margin-bottom: 8px;
+          font-weight: bold;
+        }
+        input[type="text"] {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+        input[type="submit"] {
+          background-color: #5cb85c;
+          color: white;
+          border: none;
+          padding: 10px 15px;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        input[type="submit"]:hover {
+          background-color: #4cae4c;
+        }
+      </style>
+</head>
+<body>
+     
+    <b>loisir :</b>
+    <form action="codeloisire.php" method="post" target="_blank">
+        <label for="code">Code :</label>
+        <input id="code" name="codenas" type="text" size="8"> <br><br>
+
+        <label for="loisir">loisir :</label>
+        <input id="loisir" name="loisir" type="text" size="18"> <br><br>
+
+        <input type="submit" value="Enregistrer" name="enregistrer">
+        <input type="submit" value="Afficher Liste" name="afficherliste">
+    </form>
+</body>
+</html>

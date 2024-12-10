@@ -1,0 +1,99 @@
+/* Style général du formulaire */
+form {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: #333;
+}
+
+/* Style du titre */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Style des étiquettes */
+label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Champs de texte et boutons */
+input[type="text"], select, input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Style pour les cases en lecture seule */
+input[readonly] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+/* Bouton de soumission */
+input[type="submit"] {
+    background-color: #3945b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #956722;
+}
+
+/* Messages d'erreur et de succès */
+.error-message {
+    color: #d9534f;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.success-message {
+    color: #5cb85c;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Style pour les boutons du menu */
+.menu-button {
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.menu-button:hover {
+    background-color: #025aa5;
+}
+
+/* Style pour les liens */
+a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #014c8c;
+}
